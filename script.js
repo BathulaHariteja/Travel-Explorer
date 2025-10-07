@@ -1,4 +1,3 @@
-// Replace with your actual API keys
 const UNSPLASH_ACCESS_KEY = 'iPBVqBHkfRG8jYNVjNM3SqZpYLa_mQ-okr7D2J_b7o4'; 
 const OPENWEATHER_API_KEY = 'f3865ef378a7e2a98fb787b249cbe96f';
 
@@ -75,4 +74,5 @@ function displayImages(images) {
         imgContainer.appendChild(img);
         imageGalleryDiv.appendChild(imgContainer);
     });
+
 }
